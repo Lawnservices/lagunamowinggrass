@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color: #154256;
+  position: sticky;
+  -webkit-sticky: sticky;
+  top: 0;
+}
+.navbar ul{
+margin: 0;
+padding: 0;
+position: relative;
+overflow: hidden;
+list-style-type: none;
+ 
+}
+li{
+  float: left;
+}
+li a{
+  text-decoration: none;
+  display: block;
+  padding: 17px 17px;
+  color: #fff;
+  font-size: 1.8rem;
+
+}
+li a:hover{
+  color: #fff;
+  
+}
