@@ -20,3 +20,31 @@
     object-fit: cover;
     border-radius: 0.2cm;
 }
+
+@media (min-width:1024px) and (max-width:1600px) {
+    .fotos {
+        margin-top: 30px;
+        width: 40%;
+        height: 260px;
+        background-color: lightsalmon;
+        float: left;
+        margin-left: 60px;
+    }
+}
+
+@media (min-width:360px) and (max-width:1000px) {
+    .fotos {
+        display: block;
+        margin-top: 30px;
+        width: 80%;
+        height: 260px;
+        background-color: lightsalmon;
+        float: left;
+        margin-left: 14px;
+    }
+    .context {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        margin-top: 30px;
+    }}
