@@ -43,3 +43,7 @@ li a:hover::after{
   left: 0;
   color: #fff;
 }
+/* nav */
+.section-title{
+  font-size: 1.4rem;
+}
