@@ -43,7 +43,8 @@ html{
 /*galeria fotos*/
 
 .pie {
-    margin-top: 300;
+   
+    margin-top: 1800px;
     width: 100%;
     height: 160px;
     background-color: #154256;
@@ -59,111 +60,8 @@ h3 {
 
 /*projects*/
 
-#projects .projects {
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0;
-}
-
-#projects .projects-header h1 {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.projects-header h1 span {
-    color: #256412;
-}
-
  
-.fcn {
-    color: green;
-}
-
-h1 {
-    color: #60a5a5;
-}
-
-.fecn {
-    color: #6cc091;
-}
-
-.verde12 {
-    color: green;
-    font-size: 20px;
-}
-
-#projects .all-projects {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#projects .project-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 60%;
-    margin: 20px auto;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-#projects .project-info {
-    padding: 30px;
-    flex-basis: 50%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    color: #fff;
-    height: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#projects .project-info h1 {
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-#projects .project-info h2 {
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-#projects .project-info p {
-    color: #fff;
-}
-
-#projects .project-img {
-    flex-basis: 50%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-    z-index: -100;
-}
-
-#projects .project-img:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .4;
-}
-
-#projects .project-img img {
-    transition: .3s ease transform;
-}
-
-#projects .project-item:hover .project-img img {
-    transform: scale(1.1);
-}
+ 
 
 #titulo {
     width: 90%;

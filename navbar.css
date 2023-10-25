@@ -39,6 +39,7 @@ border-radius: 3rem;
 transition: widht 0.3s,left 0.3s;
 }
 li a:hover::after{
+  
   width: 100%;
   left: 0;
   color: #fff;
