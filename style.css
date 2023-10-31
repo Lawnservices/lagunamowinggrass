@@ -148,3 +148,8 @@ h3 {
     }
  
 }
+@media (min-width:300px) and (max-width:860px){
+#galleta{
+    display: none;
+}
+}
